@@ -14,13 +14,13 @@ const Table = ({ type, data }) => {
       </thead>
       <tbody>
         {data.map((data) => (
-          <tr key={data.sr} className="border-dotted border-b-2  ">
+          <tr key={data.sr} className="border-dotted border-b-2 capitalize ">
             <td className="px-3 py-2">{data.sr}</td>
             <td className="px-3 py-2">{data.empName}</td>
             <td className="px-3 py-2">{data.empId}</td>
             <td className="px-3">
               <div
-                className={`flex justify-center items-center rounded-md ${
+                className={`flex justify-center items-center capitalize rounded-md ${
                   data.status === "paid" ||
                   data.status === "present" ||
                   data.status === "on leave"

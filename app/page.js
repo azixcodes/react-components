@@ -6,9 +6,7 @@ import StrengthTable from "./components/reports/StrengthTable";
 const HomeLayout = () => {
   return (
     <div className="flex justify-center items-center h-screen w-full gap-3 flex-wrap p-5">
-      <Reports title="Salary Report" data={salaryData} />
-      <Reports title="Attendance Report" data={attendanceData} />
-      <StrengthTable title="Employee Strength" />
+      <h4>hleo</h4>
     </div>
   );
 };
