@@ -24,10 +24,6 @@ const SalesCard = ({ title, amount, percentage, isRed }) => {
           {amount}
           <span className="text-xs text-gray-400 font-medium">USD</span>
         </h4>
-        {/* <span className="h-5 w-5 bg-red-500"> */}
-
-        {/* sfnwakejf
-      </span> */}
       </div>
     </div>
   );
